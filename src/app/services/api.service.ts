@@ -12,19 +12,19 @@ export class ApiService {
   }
 
   GetAllVisiteurs() {
-    return this.http.get('http://172.20.122.2:90//api/Employe/GetAllVisiteurs');
+    return this.http.get('http://localhost:90//api/Employe/GetAllVisiteurs');
   }
 
   GetAllPresenters(){
-    return this.http.get('http://172.20.122.2:90/api/Medicament/GetAllPresenters');
+    return this.http.get('http://localhost:90/api/Medicament/GetAllPresenters');
   }
 
   GetAllMedicaments(){
-    return this.http.get('http://172.20.122.2:90/api/Medicament/GetAllMedicaments');
+    return this.http.get('http://localhost:90/api/Medicament/GetAllMedicaments');
   }
 
   GetAllMedecins(){
-    return this.http.get('http://172.20.122.2:90/api/Medecin/GetAllMedecins');
+    return this.http.get('http://localhost:90/api/Medecin/GetAllMedecins');
   }
 
   GetMedecinLocation(sMedecinAdresse: string){
